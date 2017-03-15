@@ -1,0 +1,35 @@
+﻿Build started 15/03/2017 17:02:40.
+     1>Project "C:\Users\Matteo\Documents\Visual Studio 2013\Projects\Classification3\Tutorial\Tutorial.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (CreaDataset.vcxproj, CreaDataset2.vcxproj, CreaDataset3.vcxproj, Tutorial.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\opencv-2.4.13\build\include" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\Classification3.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /errorReport:prompt /clr:nostdlib Main.cpp
+         Main.cpp
+     1>c:\users\matteo\documents\visual studio 2013\projects\classification3\tutorial\Form1.h(106): warning C4996: 'chdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _chdir. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\direct.h(136) : see declaration of 'chdir'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Matteo\Documents\Visual Studio 2013\Projects\Classification3\x64\Release\Classification3.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\opencv-2.4.13\build\x64\vc12\lib" opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib opencv_nonfree2413.lib opencv_objdetect2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_videostab2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:x64\Release\Tutorial.Form1.resources /ASSEMBLYRESOURCE:x64\Release\Tutorial.Form_About.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Matteo\Documents\Visual Studio 2013\Projects\Classification3\x64\Release\Classification3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Release\app.res
+         x64\Release\AssemblyInfo.obj
+         x64\Release\eye_detect.obj
+         x64\Release\find_word.obj
+         x64\Release\Form_About.obj
+         x64\Release\HaarCascadeObjectDetector.obj
+         x64\Release\ImageProcess.obj
+         x64\Release\PoiDetection.obj
+         x64\Release\stdafx.obj
+         x64\Release\Main.obj
+         "x64\Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>Main.obj : warning LNK4248: unresolved typeref token (01000038) for 'CvCapture'; image may not run
+     1>eye_detect.obj : warning LNK4248: unresolved typeref token (0100001D) for 'CvCapture'; image may not run
+     1>opencv_ts2413.lib(gpu_perf.obj) : warning LNK4099: PDB 'opencv_ts2413.pdb' was not found with 'opencv_ts2413.lib(gpu_perf.obj)' or at 'C:\Users\Matteo\Documents\Visual Studio 2013\Projects\Classification3\x64\Release\opencv_ts2413.pdb'; linking object as if no debug info
+     1>opencv_ts2413.lib(gpu_test.obj) : warning LNK4099: PDB 'opencv_ts2413.pdb' was not found with 'opencv_ts2413.lib(gpu_test.obj)' or at 'C:\Users\Matteo\Documents\Visual Studio 2013\Projects\Classification3\x64\Release\opencv_ts2413.pdb'; linking object as if no debug info
+     1>opencv_ts2413.lib(ts.obj) : warning LNK4099: PDB 'opencv_ts2413.pdb' was not found with 'opencv_ts2413.lib(ts.obj)' or at 'C:\Users\Matteo\Documents\Visual Studio 2013\Projects\Classification3\x64\Release\opencv_ts2413.pdb'; linking object as if no debug info
+     1>opencv_ts2413.lib(ts_func.obj) : warning LNK4099: PDB 'opencv_ts2413.pdb' was not found with 'opencv_ts2413.lib(ts_func.obj)' or at 'C:\Users\Matteo\Documents\Visual Studio 2013\Projects\Classification3\x64\Release\opencv_ts2413.pdb'; linking object as if no debug info
+     1>opencv_ts2413.lib(ts_gtest.obj) : warning LNK4099: PDB 'opencv_ts2413.pdb' was not found with 'opencv_ts2413.lib(ts_gtest.obj)' or at 'C:\Users\Matteo\Documents\Visual Studio 2013\Projects\Classification3\x64\Release\opencv_ts2413.pdb'; linking object as if no debug info
+     1>opencv_ts2413.lib(ts_perf.obj) : warning LNK4099: PDB 'opencv_ts2413.pdb' was not found with 'opencv_ts2413.lib(ts_perf.obj)' or at 'C:\Users\Matteo\Documents\Visual Studio 2013\Projects\Classification3\x64\Release\opencv_ts2413.pdb'; linking object as if no debug info
+     1>opencv_ts2413.lib(opencv_ts_pch.obj) : warning LNK4099: PDB 'opencv_ts2413.pdb' was not found with 'opencv_ts2413.lib(opencv_ts_pch.obj)' or at 'C:\Users\Matteo\Documents\Visual Studio 2013\Projects\Classification3\x64\Release\opencv_ts2413.pdb'; linking object as if no debug info
+         Tutorial.vcxproj -> C:\Users\Matteo\Documents\Visual Studio 2013\Projects\Classification3\x64\Release\Classification3.exe
+     1>Done Building Project "C:\Users\Matteo\Documents\Visual Studio 2013\Projects\Classification3\Tutorial\Tutorial.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.58

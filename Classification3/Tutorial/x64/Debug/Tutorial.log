@@ -1,0 +1,32 @@
+﻿Build started 24/02/2017 15:54:24.
+     1>Project "C:\Users\Matteo\Documents\Visual Studio 2013\Projects\CreaDataset\Tutorial\Tutorial.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Tutorial.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\opencv-2.4.13\build\include" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\CreaDataset.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /errorReport:prompt /clr:nostdlib Main.cpp
+         Main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Matteo\Documents\Visual Studio 2013\Projects\CreaDataset\x64\Debug\CreaDataset.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\opencv-2.4.13\build\x64\vc12\lib" opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_ml2413d.lib opencv_nonfree2413d.lib opencv_objdetect2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_videostab2413d.lib /ASSEMBLYRESOURCE:x64\Debug\Tutorial.Form1.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Matteo\Documents\Visual Studio 2013\Projects\CreaDataset\x64\Debug\CreaDataset.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Debug\app.res
+         x64\Debug\AssemblyInfo.obj
+         x64\Debug\Eye_detect.obj
+         x64\Debug\find_word.obj
+         x64\Debug\HaarCascadeObjectDetector.obj
+         x64\Debug\ImageProcess.obj
+         x64\Debug\PoiDetection.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\Main.obj
+         "x64\Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>Main.obj : warning LNK4248: unresolved typeref token (01000037) for 'CvCapture'; image may not run
+     1>Eye_detect.obj : warning LNK4248: unresolved typeref token (0100001C) for 'CvCapture'; image may not run
+     1>opencv_ts2413d.lib(gpu_perf.obj) : warning LNK4099: PDB 'opencv_ts2413d.pdb' was not found with 'opencv_ts2413d.lib(gpu_perf.obj)' or at 'C:\Users\Matteo\Documents\Visual Studio 2013\Projects\CreaDataset\x64\Debug\opencv_ts2413d.pdb'; linking object as if no debug info
+     1>opencv_ts2413d.lib(gpu_test.obj) : warning LNK4099: PDB 'opencv_ts2413d.pdb' was not found with 'opencv_ts2413d.lib(gpu_test.obj)' or at 'C:\Users\Matteo\Documents\Visual Studio 2013\Projects\CreaDataset\x64\Debug\opencv_ts2413d.pdb'; linking object as if no debug info
+     1>opencv_ts2413d.lib(ts.obj) : warning LNK4099: PDB 'opencv_ts2413d.pdb' was not found with 'opencv_ts2413d.lib(ts.obj)' or at 'C:\Users\Matteo\Documents\Visual Studio 2013\Projects\CreaDataset\x64\Debug\opencv_ts2413d.pdb'; linking object as if no debug info
+     1>opencv_ts2413d.lib(ts_func.obj) : warning LNK4099: PDB 'opencv_ts2413d.pdb' was not found with 'opencv_ts2413d.lib(ts_func.obj)' or at 'C:\Users\Matteo\Documents\Visual Studio 2013\Projects\CreaDataset\x64\Debug\opencv_ts2413d.pdb'; linking object as if no debug info
+     1>opencv_ts2413d.lib(ts_gtest.obj) : warning LNK4099: PDB 'opencv_ts2413d.pdb' was not found with 'opencv_ts2413d.lib(ts_gtest.obj)' or at 'C:\Users\Matteo\Documents\Visual Studio 2013\Projects\CreaDataset\x64\Debug\opencv_ts2413d.pdb'; linking object as if no debug info
+     1>opencv_ts2413d.lib(ts_perf.obj) : warning LNK4099: PDB 'opencv_ts2413d.pdb' was not found with 'opencv_ts2413d.lib(ts_perf.obj)' or at 'C:\Users\Matteo\Documents\Visual Studio 2013\Projects\CreaDataset\x64\Debug\opencv_ts2413d.pdb'; linking object as if no debug info
+     1>opencv_ts2413d.lib(opencv_ts_pch.obj) : warning LNK4099: PDB 'opencv_ts2413d.pdb' was not found with 'opencv_ts2413d.lib(opencv_ts_pch.obj)' or at 'C:\Users\Matteo\Documents\Visual Studio 2013\Projects\CreaDataset\x64\Debug\opencv_ts2413d.pdb'; linking object as if no debug info
+         Tutorial.vcxproj -> C:\Users\Matteo\Documents\Visual Studio 2013\Projects\CreaDataset\x64\Debug\CreaDataset.exe
+     1>Done Building Project "C:\Users\Matteo\Documents\Visual Studio 2013\Projects\CreaDataset\Tutorial\Tutorial.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.99
